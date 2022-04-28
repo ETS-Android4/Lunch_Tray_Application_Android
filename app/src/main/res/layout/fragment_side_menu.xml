@@ -59,7 +59,7 @@
                     android:textAppearance="?attr/textAppearanceBody1"
                     android:text='@{viewModel.menuItems["salad"].name}'
                     tools:text="Side 1"
-                    android:onClick ="@{() -> viewModel.setSide(@string/salad)}"/>
+                    android:onClick ='@{() -> viewModel.setSide("salad")}'/>
 
                 <TextView
                     android:id="@+id/salad_description"
@@ -90,7 +90,7 @@
                     android:textAppearance="?attr/textAppearanceBody1"
                     android:text='@{viewModel.menuItems["soup"].name}'
                     tools:text="Side 2"
-                    android:onClick ="@{() -> viewModel.setSide(@string/soup)}"/>
+                    android:onClick ='@{() -> viewModel.setSide("soup")}'/>
 
                 <TextView
                     android:id="@+id/soup_description"
@@ -122,7 +122,7 @@
                     android:textAppearance="?attr/textAppearanceBody1"
                     android:text='@{viewModel.menuItems["potatoes"].name}'
                     tools:text="Side 3"
-                    android:onClick ="@{() -> viewModel.setSide(@string/potatoes)}"/>
+                    android:onClick ='@{() -> viewModel.setSide("potatoes")}'/>
 
                 <TextView
                     android:id="@+id/potato_description"
@@ -153,7 +153,7 @@
                     android:textAppearance="?attr/textAppearanceBody1"
                     android:text='@{viewModel.menuItems["rice"].name}'
                     tools:text="Side 4"
-                    android:onClick ="@{() -> viewModel.setSide(@string/salad)}"/>
+                    android:onClick ='@{() -> viewModel.setSide("rice")}'/>
 
                 <TextView
                     android:id="@+id/rice_description"
